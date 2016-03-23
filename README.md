@@ -11,13 +11,13 @@ First, download the standard version of the SD card image from: http://blog.petr
 Uncompress it:
 
 ```
-gunzip retropie-v3.4-rpi2.img.gz
+gunzip retropie-v3.6-rpi2.img.gz
 ```
 
 Export the full path to the .img file to the `RPI_IMG` variable.
 
 ```
-export RPI_IMG=/Users/disla/Downloads/retropie-v3.4-rpi2.img
+export RPI_IMG=${HOME}/Downloads/retropie-v3.6-rpi2_rpi3.img
 ```
 
 Run the install.sh script to (optionally) format the SD card, build the boot and root tarballs and copy to your SD card:
